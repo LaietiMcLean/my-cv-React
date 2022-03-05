@@ -1,0 +1,45 @@
+.container-more {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px 10px;
+    color: black;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 70%;
+    padding:20px 20px 20px 50px;
+    text-align: center;
+    width: 50vw;
+}
+
+.title-more {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.title-more::after,.title-more::before {
+    background-color: currentColor;
+    content: '';
+    height: 3px;
+    position: absolute;
+    top: 1.3em;
+    width: 20vw;
+}
+    
+.title-more::before {
+    left: 55vw;
+}
+
+.title-more::after {
+    right: 55vw;
+}
+
+.language {
+    font-weight: bold;
+    text-decoration: underline 0.2rem yellow;
+}

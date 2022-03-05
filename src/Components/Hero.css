@@ -1,0 +1,43 @@
+h1 {
+    color: #494bd1;
+    font-family: 'Oooh Baby', cursive;
+    letter-spacing: 0.3rem;
+    text-decoration: underline 0.6rem yellow;
+    word-spacing: 0.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 white, -0.3em 0 0.5em #168aad;
+    color: black;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.container-hero {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px 10px;
+    color: black;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 70%;
+    padding:20px 20px 20px 50px;
+    text-align: center;
+    width: 50vw;
+}
+
+.title-hero {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
