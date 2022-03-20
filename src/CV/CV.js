@@ -115,7 +115,7 @@ export const CV = {
     "Communication",
     "Analysis ability",
     "Empathy",
-    "Esffort",
+    "Effort",
     "Responssible",
     "Assertiveness",
     "Ability to adapt to new environments",
