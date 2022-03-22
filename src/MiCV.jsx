@@ -10,6 +10,7 @@ import { CV } from "./CV/CV";
 
 import './index'
 import './index.css'
+import './normalize.css'
 
 const { hero, education, experience, languages, habilities, volunteer } = CV;
 

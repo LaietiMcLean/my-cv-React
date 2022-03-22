@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { MiCV } from './MiCV';
 
 import './index.css';
+import './normalize.css'
 
 
 const divRootCV = document.querySelector('#root-CV');

@@ -27,6 +27,10 @@ html {
     min-width: 20rem;
 }
 
+.container-more p>item:nth-last-child {
+    border-bottom: none;
+}
+
 .title-more {
     display: block;
     font-family: 'Poppins', sans-serif;
