@@ -1,3 +1,14 @@
+html {
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #80ffdb, #72efdd, #72efdd, #56cfe1, #48bfe3, #4ea8de, #5e60ce, #6930c3, #7400b8 );
+    min-height: 100%;
+    font-size: 62.5%;
+  }
+  
+  *, *:after, *:before {
+    box-sizing: inherit;
+  }
+
 .container-more {
     align-items: center;
     background-color: white;
@@ -12,7 +23,8 @@
     opacity: 70%;
     padding:20px 20px 20px 50px;
     text-align: center;
-    width: 50vw;
+    max-width: 95rem;
+    min-width: 20rem;
 }
 
 .title-more {
